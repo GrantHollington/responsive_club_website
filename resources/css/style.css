@@ -7,6 +7,21 @@ body {
     background-color: #f5c242;
 }
 
+h1 {
+    display: block;
+    font-weight: bold;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.summary, .testimonial, .photos, .meetup {
+    margin: 4em auto;
+}
+
 /* nav bar */
 
 ul {
@@ -28,3 +43,78 @@ ul li {
 }
 
 /* intro section */
+
+.intro {
+    height: 10rem;
+    padding-top: 1rem;
+    background-position: center;
+    background-color: gold; 
+    background-repeat: no-repeat;
+}
+
+.intro h1 {
+    color: black;
+    font-size: 2rem;
+    margin-top: 1rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+
+/* summary section  */
+
+.summary {
+    padding: 0 1rem;
+}
+
+.summary h2 {
+    color: firebrick;
+}
+
+/* photos section */
+
+.photos img {
+    width: 30%;
+    margin: 1.5%;
+}
+
+@media only screen and (max-width: 1048px) {
+    .photos img {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+}
+
+/* testimonial section  */
+
+.testimonial {
+    background-color: black;
+    color: white;
+    height: 20rem;
+    padding: 0 1rem;
+    padding-top: 1rem;   
+}
+
+.testimonial h1 {
+    font-size: 2rem;
+}
+
+
+/* meetup section */
+
+.meetup {
+    margin-bottom: 2rem;
+}
+
+.meetup h1 {
+    text-align: center;
+}
+
+.meetup img {
+    width: 10%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
