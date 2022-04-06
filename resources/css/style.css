@@ -1,0 +1,30 @@
+/* universal styles */
+
+body {
+    display: block;
+    font-family: 'aBeeZee', sans-serif;
+    margin: 0;
+    background-color: #f5c242;
+}
+
+/* nav bar */
+
+ul {
+    list-style: none;
+    margin: 0;
+}
+
+ul li {
+    color: white;
+    padding: 0.5rem 1.5rem;
+    margin-right: 1.5rem;
+    display: inline-block;
+}
+
+.bar {
+    padding-top: 1rem;
+    background-color: black;
+    color: white;
+}
+
+/* intro section */
